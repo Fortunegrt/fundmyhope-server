@@ -1,7 +1,7 @@
 {
   "name": "fundmyhope-server",
   "version": "1.0.0",
-  "description": "Minimal server that creates Stripe PaymentIntents for FundMyHope donations.",
+  "description": "Server that handles Paystack donations and manual-withdrawal notifications for FundMyHope.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -12,6 +12,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "stripe": "^16.9.0"
+    "resend": "^4.0.0"
   }
 }
