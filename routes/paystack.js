@@ -31,7 +31,7 @@ module.exports = function paystackRoutes(app) {
         body: JSON.stringify({
           email,
           amount: Math.round(amount * 100), // Paystack wants the smallest currency unit (kobo/cents)
-          currency: 'USD',                  // must be a currency enabled on your Paystack account — see step 8
+          currency: 'NGN',                  // must be a currency enabled on your Paystack account — see step 8
           metadata: { campaignId }
         })
       });
