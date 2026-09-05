@@ -1,7 +1,7 @@
 {
   "name": "fundmyhope-server",
   "version": "1.0.0",
-  "description": "Server that handles Paystack donations and manual-withdrawal notifications for FundMyHope.",
+  "description": "Server that handles Flutterwave donations and manual-withdrawal notifications for FundMyHope.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
